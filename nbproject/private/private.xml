@@ -3,17 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/funcoes.js</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Filme.java</file>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Produtora.java</file>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Genero.java</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Critica.java</file>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/index.html</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/css/tema-index.css</file>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Conexao.java</file>
-            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/lista-filme.jsp</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/lista-ator.jsp</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Ator.java</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/funcoes.js</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Produtora.java</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/AtorDao.java</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Genero.java</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/index.html</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/src/java/br/edu/projecao/model/Conexao.java</file>
+            <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/lista-filme.jsp</file>
             <file>file:/C:/Users/Herd/Documents/NetBeansProjects/ProjetoFilmes/web/edita-filme.jsp</file>
         </group>
     </open-files>

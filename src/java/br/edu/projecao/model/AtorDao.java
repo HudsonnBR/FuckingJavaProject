@@ -2,6 +2,9 @@ package br.edu.projecao.model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Classe do Tipo DATA ACCESS OBJECT (DAO)
@@ -35,11 +38,25 @@ public class AtorDao {
         //Não quero que chegue até aqui!
         return null;
     }
-    /*
-    public static void main(String[] args){
-        Ator a = new Ator(null, "DONALD TRUMP");
-        AtorDao dao = new AtorDao();
-        String msg = dao.insere(a);
-        System.out.println("msg");
-    }*/
+    
+    public List<Ator> listaTodos(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        List<Ator> atores = new ArrayList<>();
+        try{
+            conn = Conexao.conectarBanco();
+            ps = conn.prepareStatement(Ator.BUSCA_TODOS);
+            rs = ps.executeQuery();
+            while(rs.next()){
+                atores.add(new Ator(rs.getInt("id"),
+                                    rs.getString("nome")));
+            }
+        }catch(Exception e){
+            
+        }
+        finally{ 
+        }
+        return null;
+    }
 }
