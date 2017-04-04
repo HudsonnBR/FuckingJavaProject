@@ -1,0 +1,54 @@
+/*Cabeçalho do Site - Formatação do Tema*/
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+}
+body{
+    background: #ccccff;
+}
+#cabecalho{
+    border: 1px #000000;
+    height: 70px;
+    width: 100%;
+    background: #006666;
+}
+h1{
+    float: left;
+    line-height: 1px;
+    margin-left: 7%;
+    color: #ffffff;
+    margin-top: 2.5%; 
+}
+h2{
+    float: right;
+    line-height: 1px;
+    margin-right: 2%;
+    margin-top: 2%;
+    color: #ffffff;
+}
+h3{
+    float: right;
+    line-height: 1px;
+    margin-right: -30%;
+    margin-top: 3.5%;
+    color: activecaption;
+}
+a{
+    float: left;
+    margin-left: -23%;
+    margin-top: 15%;
+}
+hr{
+   margin-top: -0.2%; 
+}
+#links{
+    border: 1px;
+    align-content: center;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 45%;
+    margin-top: 10%;
+}
