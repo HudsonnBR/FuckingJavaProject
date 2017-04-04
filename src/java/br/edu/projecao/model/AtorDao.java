@@ -52,10 +52,19 @@ public class AtorDao {
                 atores.add(new Ator(rs.getInt("id"),
                                     rs.getString("nome")));
             }
-        }catch(Exception e){
+            rs.close();
+            ps.close();
+            conn.close();
             
+            return atores;
+        }catch(Exception e){
+            System.out.println("Erro ao listar os atores...");
+            System.out.println(e.getMessage());
         }
         finally{ 
+            if (rs != null) rs = null;
+            if (ps != null) ps = null;
+            if (conn != null) conn = null;
         }
         return null;
     }
