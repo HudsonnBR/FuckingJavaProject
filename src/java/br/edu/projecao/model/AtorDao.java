@@ -68,4 +68,15 @@ public class AtorDao {
         }
         return null;
     }
+    
+    public static void main(String[] args) {
+        AtorDao dao = new AtorDao();
+        List<Ator> atores = dao.listaTodos();
+        for (Ator a: atores){
+            System.out.println("ID: " + a.getId());
+            System.out.println("NOME: " + a.getNome());
+            System.out.println("---------------------------");
+            
+        }
+    }
 }
